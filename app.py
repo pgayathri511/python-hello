@@ -1,5 +1,5 @@
 from  flask import Flask
-app=Flask(__name)
+app=Flask(__name__)
 @app.route("/")
 def home():
   return "Hello!My python app is deployed successfully on Azure."
